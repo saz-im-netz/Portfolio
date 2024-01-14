@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dopefolio</title>
+    <title>Portfolio</title>
     <meta name="description" content="Portfolio Template for Developer" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -22,8 +22,8 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/img/avatar.jpg"
-              alt="Ram Maheshwari Logo Image"
+              src="./assets/img/saz-portrait-klein.jpg"
+              alt="Saskia Zailskas Logo Image"
               class="header__logo-img"
             />
           </div>
@@ -84,65 +84,17 @@
     </header>
     <section class="home-hero">
       <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is Jane Smith</h1>
+        <h1 class="heading-primary">Hey, My name is Saskia Zailskas</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            I am a passionate frontend developer based in London, UK. My specialities are <strong>React JS</strong> and <strong>Tailwind CSS</strong>, and I love building apps that are delightful to use.
+            I am a passionate frontend developer based in Hannover, Germany. My specialities are , and I love building apps that are delightful to use.
           </p>
         </div>
         <div class="home-hero__cta">
           <a href="./#projects" class="btn btn--bg">See my projects</a>
         </div>
       </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/img/linkedin-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/img/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/img/twitter-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/img/yt-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="#"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
-            <img
-              src="./assets/img/insta-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
+        
       </div>
       <div class="home-hero__mouse-scroll-cont">
         <div class="mouse"></div>
@@ -150,79 +102,71 @@
     </section>
     
     
-        <section id="projects" class="projects sec-pad">
+    <section id="projects" class="projects sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-            All my projects include links to the code and live version. Click the button to learn more about each one.
+            All my projects include links to the code and live version.
           </span>
         </h2>
 
         <div class="projects__content">
+
           <div class="projects__row">
+            
             <div class="projects__row-img-cont">
+              
+              <h3 class="project-details__content-title">My Movie Watchlist</h3>
+
+              <p class="project-details__desc-para">
+                Das Projekt "My Movie Watchlist" besteht aus zwei Seiten: die Filmsuche und die Filmliste. 
+                Über den Filmtitel können Filme aus der "Open Movie Database" abgefragt werden, die auf der Filmsuche angezeigt werden. 
+                Diese können anschließend und auf der Filmliste gespeichert und jederzeit aufgerufen werden.                 
+              </p>
+
               <img
-                src="./assets/img/quiz.jpg"
+                src="./assets/img/movieWatchlistPreview.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
+
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Quiz App</h3>
-              <p class="projects__row-content-desc">
-                Quizzical is a simple quiz app that lets you select alternatives and then gives you a score. It's built with functional React components. 
-              </p>
-              <a
-                href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                >Learn more</a
-              >
-            </div>
+            <div class="project-details__content-main">
+              <div class="project-details__desc">
+                
+              </div>
+              <div class="project-details__tools-used">
+                <h4 class="project-details__content-under-title">Tools Used</h4>
+                <div class="skills">
+                  <div class="skills__skill">HTML</div>
+                  <div class="skills__skill">CSS</div>
+                  <div class="skills__skill">JavaScript</div>   
+                  <div class="skills__skill">GIT</div>
+                  <div class="skills__skill">OMDb API</div>
+                  <div class="skills__skill">LocalStorage</div>
+
+                </div>
+              </div>
+              <div class="project-details__links">
+                <h4 class="project-details__content-under-title">See Live</h4>
+                <a
+                  href="https://mopsis-movie-watchlist.netlify.app/watchlist"
+                  class="btn btn--med btn--theme project-details__links-btn"
+                  target="_blank"
+                  >Live Link</a
+                >
+                <a
+                  href="https://github.com/saz-im-netz/MovieWatchlist"
+                  class="btn btn--med btn--theme-inv project-details__links-btn"
+                  target="_blank"
+                  >Code Link</a
+                >
+              </div>
           </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/img/dashboard.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Personal Dashboard</h3>
-              <p class="projects__row-content-desc">
-                A Chrome Extension that gives you an overview over the current time, how the weather is like and how Dogecoin is performing. Interacts with multiple APIs using async JS.
-              </p>
-              <a
-                href="./project-2.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                >Learn more</a
-              >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/img/password.jpg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Password Generator</h3>
-              <p class="projects__row-content-desc">
-                An app that generates random passwords based on a few user inputs, 
-                e.g. length, types of characters, etc. Built with HTML, CSS, and vanilla JavaScript.
-              </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                >Learn more</a
-              >
-            </div>
+            
+            
           </div>
         </div>
       </div>
@@ -244,7 +188,7 @@
             <h3 class="about__content-title">Get to know me!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                My background is in teaching and marketing. I have a bachelors degree in English from Kings College. When I'm not coding, I take care of my five adorable cats.
+                My scientific background is in anorganic chemistry. In my PhD thesis I researched materials for medical implants. Aside solving logical problems I enjoy competing on a volleyball court or spending time with family and friends
               </p>
             </div>
             <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
@@ -254,15 +198,13 @@
           <div class="about__content-skills">
             <h3 class="about__content-title">My Skills</h3>
             <div class="skills">
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">HTML5</div>
+              <div class="skills__skill">CSS3</div>
               <div class="skills__skill">JavaScript</div>
               <div class="skills__skill">React</div>
-              <div class="skills__skill">TypeScript</div>
               <div class="skills__skill">Git</div>
               <div class="skills__skill">Figma</div>
-              <div class="skills__skill">Tailwind CSS</div>
-              <div class="skills__skill">Jasmine</div>
+              
             </div>
           </div>
         </div>
@@ -278,11 +220,12 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Please reach out if you have any questions! I'm happy to jump on a video call to brainstorm projects and ideas. Send me an email at jane@example.com or call me directly at +123456789
+            Please reach out if you have any questions! Send me an email at saskia.zailskas@gmail.com anytime.
           </span>
         </h2>
       </div>
     </section>
+
     <footer class="main-footer">
       <div class="main-container">
         <div class="main-footer__upper">
@@ -291,45 +234,24 @@
               <span>Social</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/saskia-zailskas-iq05/">
                 <img
                   class="main-footer__icon"
                   src="./assets/img/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://github.com/saz-im-netz">
                 <img
                   class="main-footer__icon"
                   src="./assets/img/github-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/img/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/img/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/img/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Jane Smith</h4>
+            <h4 class="heading heading-sm text-lt">Dr. Saskia Zailskas</h4>
             <p class="main-footer__short-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
               tempora explicabo quae quod deserunt
@@ -337,14 +259,6 @@
           </div>
         </div>
 
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :)
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
-        </div>
-         -->
       </div>
     </footer>
 
