@@ -350,7 +350,7 @@ textarea {
   .project-details__content-title {
     font-weight: 700;
     font-size: 3.5rem;
-    margin-bottom: 3rem; }
+    margin-bottom: 1rem; }
     @media only screen and (max-width: 37.5em) {
       .project-details__content-title {
         font-size: 3rem; } }
