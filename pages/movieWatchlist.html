@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Case Study of Project 1</title>
+    <meta name="description" content="Case study page of Project" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+        <div class="header__content">
+  
+          <div class="header__main-social">
+            <a target="_blank" rel="noreferrer" href="#">
+              <img
+                class="main-footer__icon"
+                src="../assets/img/linkedin-ico.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img
+                class="main-footer__icon"
+                src="../assets/img/github-ico.png"
+                alt="icon"
+              />
+            </a>
+          </div>
+  
+          <div class="header__logo-container">
+            <div class="header__logo-img-cont">
+              <img
+                src="../assets/img/saz-portrait-klein.jpg"
+                alt="Saskia Zailskas Logo Image"
+                class="header__logo-img"
+              />
+            </div>
+            <span class="header__logo-sub">Dr. Saskia Zailskas</span>
+          </div>
+          <div class="header__main">
+            <ul class="header__links">
+              <li class="header__link-wrapper">
+                <a href="../index.html" class="header__link"> Home </a>
+              </li>
+              <li class="header__link-wrapper">
+                <a href="../index.html#projects" class="header__link">
+                  Projekte
+                </a>
+              </li>
+              <li class="header__link-wrapper">
+                <a href="../index.html#about" class="header__link">Über mich </a>
+              </li>
+              <li class="header__link-wrapper">
+                <a href="../index.html#contact" class="header__link"> Kontakt </a>
+              </li>
+            </ul>
+            <div class="header__main-ham-menu-cont">
+              <img
+                src="../assets/svg/ham-menu.svg"
+                alt="hamburger menu"
+                class="header__main-ham-menu"
+              />
+              <img
+                src="../assets/svg/ham-menu-close.svg"
+                alt="hamburger menu close"
+                class="header__main-ham-menu-close d-none"
+              />
+            </div>
+          </div>
+  
+        </div>
+        
+        <div class="header__sm-menu">
+          <div class="header__sm-menu-content">
+            <ul class="header__sm-menu-links">
+              <li class="header__sm-menu-link">
+                <a href="./index.html"> Home </a>
+              </li>
+  
+              <li class="header__sm-menu-link">
+                <a href="../index.html#about"> Über mich </a>
+              </li>
+              
+              <li class="header__sm-menu-link">
+                <a href="../index.html#projects"> Projekte </a>
+              </li>
+  
+              <li class="header__sm-menu-link">
+                <a href="../index.html#contact"> Kontakt </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <section class="project-cs-hero">
+        <div class="project-cs-hero__content">
+          <h1 class="heading-primary">My Movie Watchlist</h1>          
+        </div>
+      </section>
+      
+
+    
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+
+            <div class="project-details__content-main">
+                <div class="project-details__desc">
+                    <h3 class="project-details__content-title">Projekt Übersicht</h3>
+                    <p class="project-details__desc-para">
+                        Das Projekt "My Movie Watchlist" besteht aus zwei Seiten: die Filmsuche und die Filmliste. 
+                        Über den Filmtitel können Filme aus der "Open Movie Database" abgefragt werden, die auf der Filmsuche angezeigt werden. 
+                        Diese können anschließend und auf der Filmliste gespeichert und jederzeit aufgerufen werden.     
+                    </p>
+                </div>
+
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="../assets/img/movieWatchlistPreview.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Verwendete Sprachen und Resourcen</h3>
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>   
+                <div class="skills__skill">OMDb API</div>
+                <div class="skills__skill">LocalStorage</div>
+                <div class="skills__skill">Github</div>
+                <div class="skills__skill">Netlify</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+                <h4 class="project-details__content-under-title">Siehe Live Version und Code</h4>
+                <a
+                  href="https://mopsis-movie-watchlist.netlify.app/watchlist"
+                  class="btn btn--med btn--theme project-details__links-btn"
+                  target="_blank"
+                >
+                  Live Link
+                </a>
+                <a
+                  href="https://github.com/saz-im-netz/MovieWatchlist"
+                  class="btn btn--med btn--theme-inv project-details__links-btn"
+                  target="_blank"
+                >
+                  Code Link
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -19,6 +19,24 @@
   <body>
     <header class="header">
       <div class="header__content">
+
+        <div class="header__main-social">
+          <a target="_blank" rel="noreferrer" href="#">
+            <img
+              class="main-footer__icon"
+              src="./assets/img/linkedin-ico.png"
+              alt="icon"
+            />
+          </a>
+          <a target="_blank" rel="noreferrer" href="#">
+            <img
+              class="main-footer__icon"
+              src="./assets/img/github-ico.png"
+              alt="icon"
+            />
+          </a>
+        </div>
+
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
@@ -31,9 +49,9 @@
         </div>
         <div class="header__main">
           <ul class="header__links">
-            <!-- <li class="header__link-wrapper">
+            <li class="header__link-wrapper">
               <a href="./index.html" class="header__link"> Home </a>
-            </li> -->
+            </li>
             <li class="header__link-wrapper">
               <a href="./index.html#projects" class="header__link">
                 Projekte
@@ -59,7 +77,9 @@
             />
           </div>
         </div>
+
       </div>
+      
       <div class="header__sm-menu">
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
@@ -82,6 +102,7 @@
         </div>
       </div>
     </header>
+
     <section class="home-hero">
       <div class="home-hero__content">
         <h1 class="heading-primary">Hallo ich bin Saskia Zailskas</h1>
@@ -106,176 +127,46 @@
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projekte</span>
-          <span class="heading-sec__sub">
-            Alle Projekte beinhalten einen Link zum Code und zur Live Version.
-          </span>
         </h2>
 
         <div class="projects__content">
+
           <!-- MovieWatchlist -->
           <div class="projects__row">
-            
             <div class="projects__row-img-cont">
-              
-              <h3 class="project-details__content-title">My Movie Watchlist</h3>
-
-              <p class="project-details__desc-para">
-                Das Projekt "My Movie Watchlist" besteht aus zwei Seiten: die Filmsuche und die Filmliste. 
-                Über den Filmtitel können Filme aus der "Open Movie Database" abgefragt werden, die auf der Filmsuche angezeigt werden. 
-                Diese können anschließend und auf der Filmliste gespeichert und jederzeit aufgerufen werden.                 
-              </p>
-
+              <h3 class="project-details__content-title"><a href="pages/movieWatchlist.html">My Movie Watchlist</a></h3>
               <img
                 src="./assets/img/movieWatchlistPreview.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
-
-            </div>
-            <div class="project-details__content-main">
-              <div class="project-details__desc">
-                
-              </div>
-              <div class="project-details__tools-used">
-                <h4 class="project-details__content-under-title">Benutzte Sprachen und Resourcen</h4>
-                <div class="skills">
-                  <div class="skills__skill">HTML</div>
-                  <div class="skills__skill">CSS</div>
-                  <div class="skills__skill">JavaScript</div>   
-                  <div class="skills__skill">GIT</div>
-                  <div class="skills__skill">OMDb API</div>
-                  <div class="skills__skill">LocalStorage</div>
-
-                </div>
-              </div>
-              <div class="project-details__links">
-                <h4 class="project-details__content-under-title">Siehe Live Version und Code</h4>
-                <a
-                  href="https://mopsis-movie-watchlist.netlify.app/watchlist"
-                  class="btn btn--med btn--theme project-details__links-btn"
-                  target="_blank"
-                >
-                  Live Link
-                </a>
-                <a
-                  href="https://github.com/saz-im-netz/MovieWatchlist"
-                  class="btn btn--med btn--theme-inv project-details__links-btn"
-                  target="_blank"
-                >
-                  Code Link
-                </a>
-              </div>
-
             </div>
           </div>
 
           <!-- Quizzical -->
           <div class="projects__row">
-            
             <div class="projects__row-img-cont">
-              
-              <h3 class="project-details__content-title">Quizzical - Teste dein Allgemeinwissen</h3>
-
-              <p class="project-details__desc-para">
-                Das Pr.                 
-              </p>
-
+              <h3 class="project-details__content-title"><a href="pages/quizzical.html">Quizzical - Teste dein Allgemeinwissen</a></h3>
               <img
                 src="assets/img/quizzical.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
-
-            </div>
-            <div class="project-details__content-main">
-              <div class="project-details__desc">
-                
-              </div>
-              <div class="project-details__tools-used">
-                <h4 class="project-details__content-under-title">Tools Used</h4>
-                <div class="skills">
-                  <div class="skills__skill">HTML</div>
-                  <div class="skills__skill">CSS</div>
-                  <div class="skills__skill">JavaScript</div>
-                  <div class="skills__skill">React</div>   
-                  <div class="skills__skill">GIT</div>
-                  
-                </div>
-              </div>
-              <div class="project-details__links">
-                <h4 class="project-details__content-under-title">See Live</h4>
-                <a
-                  href="https://quiztime-with-mr-rime.netlify.app"
-                  class="btn btn--med btn--theme project-details__links-btn"
-                  target="_blank"
-                >
-                  Live Link
-                </a>
-                <a
-                  href="https://github.com/saz-im-netz/Quizzical"
-                  class="btn btn--med btn--theme-inv project-details__links-btn"
-                  target="_blank"
-                >
-                  Code Link
-                </a>
-              </div>
-
             </div>
           </div>
 
           <!-- Tindog -->
           <div class="projects__row">
-            
             <div class="projects__row-img-cont">
-              
-              <h3 class="project-details__content-title">Tindog - Hey it's Tinder for Dogs</h3>
-
-              <p class="project-details__desc-para">
-                Das               
-              </p>
-
+              <h3 class="project-details__content-title"> <a href="pages/tindog.html">Tindog - Hey it's Tinder, but for Dogs</a> </h3>
               <img
                 src="assets/img/tindog1.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
-
-            </div>
-            <div class="project-details__content-main">
-              <div class="project-details__desc">
-                
-              </div>
-              <div class="project-details__tools-used">
-                <h4 class="project-details__content-under-title">Benutzte Sprachen und Resourcen</h4>
-                <div class="skills">
-                  <div class="skills__skill">HTML</div>
-                  <div class="skills__skill">CSS</div>
-                  <div class="skills__skill">JavaScript</div>   
-                  <div class="skills__skill">GIT</div>
-                </div>
-              </div>
-              <div class="project-details__links">
-                <h4 class="project-details__content-under-title">Siehe Live Version und Code</h4>
-                <a
-                  href="https://hey-its-tinder-for-dogs.netlify.app/"
-                  class="btn btn--med btn--theme project-details__links-btn"
-                  target="_blank"
-                >
-                  Live Link
-                </a>
-                <a
-                  href="https://github.com/saz-im-netz/Tindog"
-                  class="btn btn--med btn--theme-inv project-details__links-btn"
-                  target="_blank"
-                >
-                  Code Link
-                </a>
-              </div>
-
-            </div>
           </div>
 
 
@@ -287,6 +178,7 @@
     
     <section id="about" class="about sec-pad">
       <div class="main-container">
+
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">About Me</span>
           <span class="heading-sec__sub">
@@ -295,81 +187,66 @@
             </p>
           </span>
         </h2>
+
         <div class="about__content">
           <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
+            <h3 class="about__content-title">Lerne mich kennen!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                My scientific background is in anorganic chemistry. In my PhD thesis I researched materials for medical implants. Aside solving logical problems I enjoy competing on a volleyball court or spending time with family and friends
+                Schon als Kind hatte ich großen Spaß am Lösen logischer Probleme, wodurch ich letztlich meine Leidenschaft fürs Programmieren entdeckt habe.
+                 Das entsprechende "Know-how" habe ich mir im Selbststudium angeeignet.
+                Mein wissenschaftlicher Hintergrund ist die Anorganische Chemie und in meiner Doktorarbeit habe ich an der Entwicklung
+                 von Materialien für den Einsatz in medizinischen Implantaten geforscht.
+                Weiterhin interessiere ich mich für die japanische Kultur und lerne in meiner Freizeit begeistert die japanische Sprache. 
+                Außerdem verbringe ich gerne Zeit mit Freunden und Familie oder stehe energiegeladen auf dem Volleyballfeld.
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
+            <!-- <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Kontakt
+            </a> -->
           </div>
+
           <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
+            <h3 class="about__content-title">Meine technischen Fähigkeiten</h3>
             <div class="skills">
               <div class="skills__skill">HTML5</div>
               <div class="skills__skill">CSS3</div>
               <div class="skills__skill">JavaScript</div>
               <div class="skills__skill">React</div>
+              <div class="skills__skill">C++</div>
+              <div class="skills__skill">Qt</div>
               <div class="skills__skill">Git</div>
               <div class="skills__skill">Figma</div>
-              
+              <div class="skills__skill">LaTeX</div>
             </div>
+
           </div>
+
         </div>
+
       </div>
     </section>
     
-    
 
-    
     
     <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__main heading-sec__main--lt">Kontakt</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
             saskia.zailskas@gmail.com 
           </span>
         </h2>
+
       </div>
     </section>
 
     <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/saskia-zailskas-iq05/">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/img/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/saz-im-netz">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/img/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Dr. Saskia Zailskas</h4>
-            <p class="main-footer__short-desc">
-              Lo
-            </p>
-          </div>
-        </div>
-
+      <div class="main-footer__lower">
+        &copy; Copyright 2024. Inspired by
+        <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+          >Ram Maheshwari</a
+        >
       </div>
     </footer>
 
