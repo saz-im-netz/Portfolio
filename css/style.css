@@ -51,6 +51,11 @@ button {
   border: none;
   cursor: pointer; }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 textarea {
   resize: none; }
 
@@ -124,7 +129,7 @@ textarea {
   letter-spacing: 1px; }
 
 .main-container {
-  max-width: 120rem;
+  max-width: 150rem;
   margin: auto;
   position: relative;
   width: 92%; }
@@ -222,6 +227,7 @@ textarea {
 .about {
   background: rgb(216, 216, 216);
   color:#000;
+  padding: 20rem;
 }
   .about__content {
     display: grid;
@@ -249,6 +255,66 @@ textarea {
         margin: 0 3px; }
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
+
+      .form-container{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        background-color: #8da3c7;
+        width: 70%;
+        padding: 2em 0;
+        border-radius: 5px;
+        color: black;
+        font-weight: bold;
+      }
+      @media only screen and (max-width: 56.25em) {
+        .form-container {
+          width: 90% } }
+      form{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+      }
+      label{
+        font-size: 2em;
+      }
+      input[type=text], input[type=email], textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid rgb(30, 66, 160, 0.4); 
+        border-radius: 4px; 
+        background-color: rgb(30, 66, 160, 0.2);
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: none; 
+        font-size: large;
+      }
+      textarea{
+        height: 20em;
+      }
+      button[type=submit]{
+        font-size: large;
+        padding: 0.7em 1.25em;
+        margin-top: 1em;
+        border-radius: 5px;
+        background-color: rgba(var(--main-color), 1);
+        color: rgb(216, 216, 216);
+        font-weight: bold;
+        width: 15%;
+        align-self: end;
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+        transition: transform .3s; 
+      }
+      @media only screen and (max-width: 56.25em) {
+        button[type=submit] {
+          width: 30% } }
+          @media only screen and (max-width: 75em) {
+            button[type=submit] {
+              width: 25% } }
+      button[type=submit]:hover{
+        transform: translateY(-3px); 
+      }
 
 .projects__row {
   display: grid;
@@ -286,7 +352,7 @@ textarea {
       margin-bottom: 2rem; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-title {
-          font-size: 2.4rem; } }
+          font-size: 1.2rem; } }
     .projects__row-content-desc {
       font-size: 1.8rem;
       color: grey;
@@ -296,6 +362,44 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-desc {
           font-size: 1.7rem; } }
+
+        .portfolio {
+            margin: 0 auto;
+            max-width: 140rem;
+            display: grid;
+            grid-gap: 4em;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            padding-bottom: 5rem;
+        }
+        
+        .portfolio__item {
+            background: var(--n-blue);
+            overflow: hidden;
+            
+        }
+        
+        @media only screen and (max-width: 56.25em) {
+            .portfolio__item {
+            height: 300px; } }
+        
+        .portfolio__img {
+            transition: 
+                transform 750ms cubic-bezier(.5, 0, .5, 1),
+                opacity 250ms linear;
+            object-fit: cover;
+            height: 100%;
+        }
+        
+        .portfolio__item:focus {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .portfolio__img:hover,
+        .portfolio__item:focus .portfolio__img {
+            transform: scale(1.2);
+            opacity: .5;
+        }
 
 .contact {
   background: url(../../assets/svg/repeating-triangles.svg);
@@ -338,11 +442,12 @@ textarea {
   margin: auto; }
   .project-details__content-title {
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem; }
-    @media only screen and (max-width: 37.5em) {
-      .project-details__content-title {
-        font-size: 3rem; } }
+    .project-details__content-title-large{
+      font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem; }
   .project-details__content-under-title{
     font-weight: 700;
     font-size: 2.8rem;
@@ -421,11 +526,8 @@ textarea {
   .header__logo-container {
     display: flex;
     align-items: center;
-    cursor: pointer;
     color: rgb(179, 179, 179);
     transition: color .3s; }
-    .header__logo-container:hover {
-      color: rgba(var(--main-color), 1); }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
@@ -556,7 +658,12 @@ textarea {
         width: 100%; } }
   .main-footer__icon {
     margin-right: 1rem;
-    width: 2.5rem; }
+    margin-bottom: 0.4em;
+    width: 2.5rem; 
+    transition: transform .3s;}
+    .main-footer__icon:hover {
+      transform: translateX(-3px);
+    }
     .main-footer__icon--mr-none {
       margin-right: 0; }
   .main-footer__lower {
