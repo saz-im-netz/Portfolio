@@ -21,15 +21,15 @@
           <div class="header__main-social">
             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/saskia-zailskas-iq05/">
               <img
-                class="main-footer__icon"
-                src="./assets/img/linkedin-ico.png"
+                class="main-header__icon"
+                src="../assets/img/linkedin-ico.png"
                 alt="icon"
               />
             </a>
             <a target="_blank" rel="noreferrer" href="https://github.com/saz-im-netz">
               <img
-                class="main-footer__icon"
-                src="./assets/img/github-ico.png"
+                class="main-header__icon"
+                src="../assets/img/github-ico.png"
                 alt="icon"
               />
             </a>
@@ -52,15 +52,15 @@
               </li>
               <li class="header__link-wrapper">
                 <a href="../index.html#projects" class="header__link">
-                  Projekte
+                  Projects
                 </a>
               </li>
               <li class="header__link-wrapper">
-                <a href="../index.html#about" class="header__link">Über mich </a>
+                <a href="../index.html#about" class="header__link">About Me </a>
               </li>
-              <li class="header__link-wrapper">
-                <a href="../index.html#contact" class="header__link"> Kontakt </a>
-              </li>
+              <!-- <li class="header__link-wrapper">
+                <a href="../index.html#contact" class="header__link"> Contacts </a>
+              </li> -->
             </ul>
             <div class="header__main-ham-menu-cont">
               <img
@@ -86,16 +86,16 @@
               </li>
   
               <li class="header__sm-menu-link">
-                <a href="../index.html#about"> Über mich </a>
+                <a href="../index.html#about"> About Me </a>
               </li>
               
               <li class="header__sm-menu-link">
-                <a href="../index.html#projects"> Projekte </a>
+                <a href="../index.html#projects"> Projects </a>
               </li>
   
-              <li class="header__sm-menu-link">
-                <a href="../index.html#contact"> Kontakt </a>
-              </li>
+              <!-- <li class="header__sm-menu-link">
+                <a href="../index.html#contact"> Contacts </a>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -115,11 +115,15 @@
 
             <div class="project-details__content-main">
                 <div class="project-details__desc">
-                    <h3 class="project-details__content-title-large">Projekt Übersicht</h3>
+                    <h3 class="project-details__content-title-large">Projekt Overview</h3>
                     <p class="project-details__desc-para">
-                        Bei "Quizzical" handelt es sich um eine React-App, mit der das Allgemeinwissen in drei verschiedenen Schwierigkeitsstufen getestet werden kann. 
+                        <!-- Bei "Quizzical" handelt es sich um eine React-App, mit der das Allgemeinwissen in drei verschiedenen Schwierigkeitsstufen getestet werden kann. 
                         Die Fragen werden durch die "Open Trivia Database" API bereit gestellt. Wer lieber sein Wissen in einem speziellen Gebiet auf die Probe stellen möchte,
-                        kann aus den 24 Themenbereichen auch nur einen auswählen.    
+                        kann aus den 24 Themenbereichen auch nur einen auswählen.     -->
+
+                        "Quizzical" is a React app that can be used to test general knowledge at three different levels of difficulty. 
+                        The questions are provided by the "Open Trivia Database" API. Those who prefer to put their knowledge in a specific area to the test
+                        can choose just one of the 24 subject areas.
                     </p>
                 </div>
 
@@ -132,7 +136,7 @@
           </div>
           
             <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Verwendete Sprachen und Resourcen</h3>
+              <h3 class="project-details__content-title">Used Languages and Resources</h3>
               <div class="skills">
                 <div class="skills__skill">HTML</div>
                   <div class="skills__skill">CSS</div>
@@ -144,7 +148,7 @@
               </div>
             </div>
             <div class="project-details__links">
-                <h4 class="project-details__content-under-title">Siehe Live Version und Code</h4>
+                <h4 class="project-details__content-under-title">Live Version und Code</h4>
                 <a
                   href="https://quiztime-with-mr-rime.netlify.app"
                   class="btn btn--med btn--theme project-details__links-btn"
@@ -164,18 +168,42 @@
         </div>
       </div>
     </section>
+
     <footer class="main-footer">
       <div class="main-container">
-        
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Contact</span>
+            </h2>
+            <p class="main-footer__short-desc">
+              Feel free to contact me via email 
+              <img class="footer-icon mail-adress-icon" src="../assets/svg/email.svg" alt="email-icon"/>
+              <br>
+              <span class="written-mail">saskia.zailskas@gmail.com</span>
+              <br>
+              I will get back to you as soon as I can
+            </p>
+            
+            <p id="copy-message" class="copy-message"> mail adress copied... </p>
+            
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Dr. Saskia Zailskas</h4>
+            <p class="main-footer__short-desc">
+              I am a Frontend Developer based in Hanover, Germany. I love challenges and always thrive to make my projects even better than the last one.
+            </p>
+          </div>
+        </div>
 
         <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
+          &copy; Copyright 2024. Inspired by
           <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
             >Ram Maheshwari</a
           >
         </div>
       </div>
     </footer>
-    <script src="./index.js"></script>
+    <script src="../index.js"></script>
   </body>
 </html>
