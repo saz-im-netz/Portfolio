@@ -231,6 +231,9 @@ textarea {
   color:#fff;
   padding: 20rem;
 }
+@media only screen and (max-width: 37.5em) {
+  .about {
+    padding: 10rem 0; } }
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
