@@ -39,7 +39,7 @@ headerLogoConatiner.addEventListener('click', () => {
 
 
 document.querySelector(".mail-adress-icon").addEventListener( 'click', ()=>{
-  navigator.clipboard.writeText("saskia.zailskas@gmail.com")
+  navigator.clipboard.writeText("saskia.zailskas@outlook.de")
   showCopyMessage()
 })
 

@@ -13,93 +13,72 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
   </head>
   <body>
     <header class="header">
-        <div class="header__content">
-  
-          <div class="header__main-social">
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/saskia-zailskas-iq05/">
-              <img
-                class="main-header__icon"
-                src="../assets/img/linkedin-ico.png"
-                alt="linked in icon"
-              />
-            </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/saz-im-netz">
-              <img
-                class="main-header__icon"
-                src="../assets/img/github-ico.png"
-                alt="github icon"
-              />
-            </a>
-          </div>
-  
-          <div class="header__logo-container">
-            <div class="header__logo-img-cont">
-              <img
-                src="../assets/img/saz-portrait-klein.jpg"
-                alt="Saskia Zailskas Logo Image"
-                class="header__logo-img"
-              />
+
+      <nav class="navbar navbar-expand-sm navbar-custom navbar-dark " >
+        <div class="container-fluid navbar__content">
+          <div class="header__social-container">
+            <div class="header__social">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/saskia-zailskas-iq05/">
+                <img
+                  class="header__social-icon"
+                  src="../assets/img/linkedin-ico.png"
+                  alt="linked in icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/saz-im-netz">
+                <img
+                  class="header__social-icon"
+                  src="../assets/img/github-ico.png"
+                  alt="github icon"
+                />
+              </a>
             </div>
-            <span class="header__logo-sub">Dr. Saskia Zailskas</span>
+
+            <div class="header__logo-container">
+              <div class="header__logo-img-cont">
+                <img
+                  src="../assets/img/saz-portrait-klein.jpg"
+                  alt="Saskia Zailskas Logo Image"
+                  class="header__logo-img"
+                />
+              </div>
+              <span class="header__logo-sub"> Dr. Saskia Zailskas </a></span>
+            </div>
           </div>
-          <div class="header__main">
-            <ul class="header__links">
-              <li class="header__link-wrapper">
-                <a href="../index.html" class="header__link"> Home </a>
+
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-lg-end" id="navbar">
+            <ul class="navbar-nav mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link navbar-brand"> Home </a>
               </li>
-              <li class="header__link-wrapper">
-                <a href="../index.html#projects" class="header__link">
+              <li class="nav-item">
+                <a href="../index.html#about" class="nav-link navbar-brand">About Me </a>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#projects" class="nav-link navbar-brand">
                   Projects
                 </a>
               </li>
-              <li class="header__link-wrapper">
-                <a href="../index.html#about" class="header__link">About me  </a>
-              </li>
               <!-- <li class="header__link-wrapper">
-                <a href="../index.html#contact" class="header__link"> Contacts </a>
+                <a href="./index.html#contact" class="header__link"> Contact </a>
               </li> -->
             </ul>
-            <div class="header__main-ham-menu-cont">
-              <img
-                src="../assets/svg/ham-menu.svg"
-                alt="hamburger menu icon"
-                class="header__main-ham-menu"
-              />
-              <img
-                src="../assets/svg/ham-menu-close.svg"
-                alt="hamburger menu close"
-                class="header__main-ham-menu-close d-none"
-              />
-            </div>
           </div>
-  
+          
         </div>
         
-        <div class="header__sm-menu">
-          <div class="header__sm-menu-content">
-            <ul class="header__sm-menu-links">
-              <li class="header__sm-menu-link">
-                <a href="../index.html"> Home </a>
-              </li>
-  
-              <li class="header__sm-menu-link">
-                <a href="../index.html#about"> About me </a>
-              </li>
-              
-              <li class="header__sm-menu-link">
-                <a href="../index.html#projects"> Projects </a>
-              </li>
-  
-              <!-- <li class="header__sm-menu-link">
-                <a href="../index.html#contact"> Contacts </a>
-              </li> -->
-            </ul>
-          </div>
-        </div>
-      </header>
+      </nav>
+    </header>
 
       <section class="project-cs-hero">
         <div class="project-cs-hero__content">
