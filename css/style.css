@@ -41,6 +41,10 @@ body {
 a {
   text-decoration: none;
   color: inherit; }
+  h3 > a {
+    text-decoration: none;
+    color: rgb(216, 216, 216); 
+  }
 
 li {
   list-style: none; }
@@ -70,13 +74,14 @@ textarea {
   resize: none; 
 }
 
-.heading-primary {
+.heading-level-1 {
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-weight: 700;
   text-align: center; }
   @media only screen and (max-width: 37.5em) {
-    .heading-primary {
+    .heading-level-1 {
       font-size: 4.5rem; } }
 
 .heading-sec__mb-bg {
@@ -94,6 +99,7 @@ textarea {
 .heading-sec__main {
   display: block;
   font-size: 4rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
   letter-spacing: 3px;
@@ -118,7 +124,7 @@ textarea {
     @media only screen and (max-width: 37.5em) {
       .heading-sec__main::after {
         top: calc(100% + 1.2rem); } }
-  .inversed::after{
+  .inversed-title::after{
     background: rgb(40, 40, 40);
   }
 
@@ -127,7 +133,7 @@ textarea {
   text-align: center;
   color: #777;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 400;
   max-width: 80rem;
   margin: auto;
   line-height: 1.6; }
@@ -139,33 +145,33 @@ textarea {
 
 .heading-sm {
   font-size: 2.2rem;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
-
-
-.btn {
+.my-btn {
   background: #eee;
   color: #333;
   text-transform: uppercase;
+  text-decoration: none;
   letter-spacing: 2px;
   display: inline-block;
   font-weight: 700;
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
-  .btn:hover {
+  .my-btn:hover {
     transform: translateY(-3px); }
-  .btn--bg {
+  .my-btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
-  .btn--med {
+  .my-btn--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
-  .btn--theme {
+  .my-btn--theme {
     background: rgba(var(--main-color), 1);
     color: #eee; }
-  .btn--theme-inv {
+  .my-btn--theme-inv {
     color: rgba(var(--main-color), 1);
     background: #eee;
     border: 2px solid rgba(var(--main-color), 1);
@@ -178,14 +184,14 @@ textarea {
     .sec-pad {
       padding: 8rem 0; } }
 
-.text-primary {
+.text-setting {
   color: rgb(179, 179, 179);
   font-size: 2.2rem;
   text-align: center;
   width: 100%;
   line-height: 1.6; }
   @media only screen and (max-width: 37.5em) {
-    .text-primary {
+    .text-setting {
       font-size: 2rem; } }
 
 .d-none {
@@ -586,6 +592,12 @@ textarea {
     margin-top: 5rem;
     text-align: center; }
 
+
+.project-details{
+  background-color: rgb(40, 40, 40);
+  color: rgb(216, 216, 216);
+}
+
 .project-details__content {
   padding: 8rem 0;
   max-width: 90rem;
@@ -743,6 +755,7 @@ textarea {
     .main-footer__lower a {
       text-decoration: underline;
       font-weight: bold;
+      color: rgb(179, 179, 179);
       margin-left: 2px; }
     @media only screen and (max-width: 56.25em) {
     .main-footer__lower {
