@@ -388,65 +388,7 @@ textarea {
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
 
-      /* .form-container{
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        background-color: #8da3c7;
-        width: 70%;
-        padding: 2em 0;
-        border-radius: 5px;
-        color: black;
-        font-weight: bold;
-      }
-      @media only screen and (max-width: 56.25em) {
-        .form-container {
-          width: 90% } }
-      form{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-      }
-      label{
-        font-size: 2em;
-      }
-      input[type=text], input[type=email], textarea {
-        width: 100%; 
-        padding: 12px; 
-        border: 1px solid rgb(30, 66, 160, 0.4); 
-        border-radius: 4px; 
-        background-color: rgb(30, 66, 160, 0.2);
-        box-sizing: border-box; 
-        margin-top: 6px; 
-        margin-bottom: 16px; 
-        resize: none; 
-        font-size: large;
-      }
-      textarea{
-        height: 20em;
-      }
-      button[type=submit]{
-        font-size: large;
-        padding: 0.7em 1.25em;
-        margin-top: 1em;
-        border-radius: 5px;
-        background-color: rgba(var(--main-color), 1);
-        color: rgb(216, 216, 216);
-        font-weight: bold;
-        width: 15%;
-        align-self: end;
-        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-        transition: transform .3s; 
-      }
-      @media only screen and (max-width: 56.25em) {
-        button[type=submit] {
-          width: 30% } }
-          @media only screen and (max-width: 75em) {
-            button[type=submit] {
-              width: 25% } }
-      button[type=submit]:hover{
-        transform: translateY(-3px); 
-      } */
+    
 
 
 /* -------------------
