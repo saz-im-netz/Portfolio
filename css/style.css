@@ -451,8 +451,8 @@ textarea {
             margin: 0 auto;
             max-width: 140rem;
             display: grid;
-            grid-gap: 4em;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 6em 4em;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
             padding-bottom: 5rem;
         }
         
